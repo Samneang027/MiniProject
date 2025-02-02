@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Home Page</title>
+    <link rel="shortcut icon" type="image/x-icon" href="/group-fruit/logo-company.png" />
+    <meta name="description" content="An e-commerce fruit shop is an online store that sells fresh fruits, dried fruits, or fruit-related products. It allows customers to browse, order, and pay for fruits online, with options for home delivery or pickup.">
+    <meta name="keywords" content="Product Listings, Shopping Cart & Checkout, Delivery & Pickup Options, Amazon Fresh">
+    <meta property="og:title" content="An e-commerce fruit shop is an online store that sells fresh fruits, dried fruits, or fruit-related products. It allows customers to browse, order, and pay for fruits online, with options for home delivery or pickup.">
+    <meta property="og:description" content="An e-commerce fruit shop is an online store that sells fresh fruits, dried fruits, or fruit-related products. It allows customers to browse, order, and pay for fruits online, with options for home delivery or pickup.">
+    <meta property="og:url" content="https://www">
+    <meta property="og:image" content="/group-fruit/logo-company.png">
+</head>
+<body><del>$3.50</del>
+    <div id="header"></div>
+    <div class="mt-30" id="title"></div>
+    <section id="special-price">
+        <h1 class="text-green-600 text-4xl text-center font-serif font-bold mt-24 mb-24">Special Price</h1>
+        <div class="lg:grid lg:grid-cols-2 lg:gap-8 lg:mr-20 lg:ml-20">
+            <div class="mt-14 mr-20 ml-20 md:hidden">
+                <!-- product black grope -->
+                <div class="hover:border-1 hover:border-gray-400 hover:rounded-tl-xl hover:rounded-tr-xl transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">
+                    <div class="bg-gray-100 h-60 rounded-tl-xl rounded-tr-xl flex items-center justify-center">
+                        <img class="h-50 p-6" src="/group-fruit/black-grape.png" alt="black-grape">
+                    </div>
+                    <div class="bg-white">
+                        <label class="block font-serif text-3xl p-4 hover:text-green-600" for="name-product">Black Grape</label>
+                        <label class="block font-sans text-4xl p-2 font-bold text-right" for="price">$4.50</label>
+                        <div class="flex justify-between p-4">
+                            <a class="bg-green-600 p-2 w-30 rounded-3xl font-serif text-white text-center hover:text-green-600 hover:bg-green-200 hover:border-1 hover:border-green-600 pointer-events-auto" href="/public/add-order.html" name="add-product"><i class="fa-solid fa-cart-shopping pr-2"></i>ADD</a>
+                            <label class="font-sans text-2xl font-bold text-red-600 text-right" for="discount"><del>$6.33</del></label>
+                        </div>
+                    </div>
+                </div>
+                <!-- product green apple -->
+                <div class="hover:border-1 hover:border-gray-400 hover:rounded-tl-xl hover:rounded-tr-xl transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">
+                    <div class="bg-gray-100 h-60 rounded-tl-xl rounded-tr-xl flex items-center justify-center">
+                        <img class="h-50 p-6" src="/group-fruit/green-apple.png" alt="green-apple">
+                    </div>
+                    <div class="bg-white">
+                        <label class="block font-serif text-3xl p-4 hover:text-green-600" for="name-product">Green Apple</label>
+                        <label class="block font-sans text-4xl p-2 font-bold text-right" for="price">$1.50</label>
+                        <div class="flex justify-between p-4">
+                            <a class="bg-green-600 p-2 w-30 rounded-3xl font-serif text-white text-center hover:text-green-600 hover:bg-green-200 hover:border-1 hover:border-green-600 pointer-events-auto" href="/public/add-order.html" name="add-product"><i class="fa-solid fa-cart-shopping pr-2"></i>ADD</a>
+                            <label class="font-sans text-2xl font-bold text-red-600 text-right" for="discount"><del>$3.50</del></label>
+                        </div>
+                    </div>
+                </div>
+                <!-- product orange -->
+                <div class="hover:border-1 hover:border-gray-400 hover:rounded-tl-xl hover:rounded-tr-xl transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">
+                    <div class="bg-gray-100 h-60 rounded-tl-xl rounded-tr-xl flex items-center justify-center">
+                        <img class="h-50 p-6" src="/group-fruit/Orange.png" alt="orange">
+                    </div>
+                    <div class="bg-white">
+                        <label class="block font-serif text-3xl p-4 hover:text-green-600" for="name-product">Orange</label>
+                        <label class="block font-sans text-4xl p-2 font-bold text-right" for="price">$1.30</label>
+                        <div class="flex justify-between p-4">
+                            <a class="bg-green-600 p-2 w-30 rounded-3xl font-serif text-white text-center hover:text-green-600 hover:bg-green-200 hover:border-1 hover:border-green-600 pointer-events-auto" href="/public/add-order.html" name="add-product"><i class="fa-solid fa-cart-shopping pr-2"></i>ADD</a>
+                            <label class="font-sans text-2xl font-bold text-red-600 text-right" for="discount"><del>$3.50</del></label>
+                        </div>
+                    </div>
+                </div>
+                <!-- product strawberry -->
+                <div class="hover:border-1 hover:border-gray-400 hover:rounded-tl-xl hover:rounded-tr-xl transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">
+                    <div class="bg-gray-100 h-60 rounded-tl-xl rounded-tr-xl flex items-center justify-center">
+                        <img class="h-50 p-6" src="/group-fruit/Strawberry.png" alt="strawberry">
+                    </div>
+                    <div class="bg-white">
+                        <label class="block font-serif text-3xl p-4 hover:text-green-600" for="name-product">Strawberry</label>
+                        <label class="block font-sans text-4xl p-2 font-bold text-right" for="price">$4.50</label>
+                        <div class="flex justify-between p-4">
+                            <a class="bg-green-600 p-2 w-30 rounded-3xl font-serif text-white text-center hover:text-green-600 hover:bg-green-200 hover:border-1 hover:border-green-600 pointer-events-auto" href="/public/add-order.html" name="add-product"><i class="fa-solid fa-cart-shopping pr-2"></i>ADD</a>
+                            <label class="font-sans text-2xl font-bold text-red-600 text-right" for="discount"><del>$8.50</del></label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="hidden md:grid md:grid-cols-2 md:gap-8 md:bg-white md:border-1 md:border-gray-400 md:h-140 md:pt-16 md:pr-12 md:pb-16 md:pl-12 md:m-6 lg:m-0 lg:mt-6 md:hover:bg-gray-200 md:hover:border-white  md:transition md:delay-150">
+                <!-- product black grope -->
+                <div class="hover:border-1 hover:border-gray-400 hover:rounded-tl-xl hover:rounded-tr-xl transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">
+                    <div class="bg-gray-100 h-60 rounded-tl-xl rounded-tr-xl flex items-center justify-center">
+                        <img class="h-50 p-6" src="/group-fruit/black-grape.png" alt="black-grape">
+                    </div>
+                    <div class="bg-white">
+                        <label class="block font-serif text-3xl p-4 hover:text-green-600" for="name-product">Black Grape</label>
+                        <label class="block font-sans text-4xl p-2 font-bold text-right" for="price">$4.50</label>
+                        <div class="flex justify-between p-4">
+                            <a class="bg-green-600 p-2 w-30 rounded-3xl font-serif text-white text-center hover:text-green-600 hover:bg-green-200 hover:border-1 hover:border-green-600 pointer-events-auto" href="/public/add-order.html" name="add-product"><i class="fa-solid fa-cart-shopping pr-2"></i>ADD</a>
+                            <label class="font-sans text-2xl font-bold text-red-600 text-right" for="discount"><del>$6.33</del></label>
+                        </div>
+                    </div>
+                </div>
+                <!-- product green apple -->
+                <div class="hover:border-1 hover:border-gray-400 hover:rounded-tl-xl hover:rounded-tr-xl transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">
+                    <div class="bg-gray-100 h-60 rounded-tl-xl rounded-tr-xl flex items-center justify-center">
+                        <img class="h-50 p-6" src="/group-fruit/green-apple.png" alt="green-apple">
+                    </div>
+                    <div class="bg-white">
+                        <label class="block font-serif text-3xl p-4 hover:text-green-600" for="name-product">Green Apple</label>
+                        <label class="block font-sans text-4xl p-2 font-bold text-right" for="price">$1.50</label>
+                        <div class="flex justify-between p-4">
+                            <a class="bg-green-600 p-2 w-30 rounded-3xl font-serif text-white text-center hover:text-green-600 hover:bg-green-200 hover:border-1 hover:border-green-600 pointer-events-auto" href="/public/add-order.html" name="add-product"><i class="fa-solid fa-cart-shopping pr-2"></i>ADD</a>
+                            <label class="font-sans text-2xl font-bold text-red-600 text-right" for="discount"><del>$3.50</del></label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="hidden md:grid md:grid-cols-2 md:gap-8 md:bg-white md:border-1 md:border-gray-400 md:h-140 md:pt-16 md:pr-12 md:pb-16 md:pl-12 md:m-6 lg:m-0 lg:mt-6 md:hover:bg-gray-200 md:hover:border-white  md:transition md:delay-150">
+                <!-- product orange -->
+                <div class="hover:border-1 hover:border-gray-400 hover:rounded-tl-xl hover:rounded-tr-xl transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">
+                    <div class="bg-gray-100 h-60 rounded-tl-xl rounded-tr-xl flex items-center justify-center">
+                        <img class="h-50 p-6" src="/group-fruit/Orange.png" alt="orange">
+                    </div>
+                    <div class="bg-white">
+                        <label class="block font-serif text-3xl p-4 hover:text-green-600" for="name-product">Orange</label>
+                        <label class="block font-sans text-4xl p-2 font-bold text-right" for="price">$1.30</label>
+                        <div class="flex justify-between p-4">
+                            <a class="bg-green-600 p-2 w-30 rounded-3xl font-serif text-white text-center hover:text-green-600 hover:bg-green-200 hover:border-1 hover:border-green-600 pointer-events-auto" href="/public/add-order.html" name="add-product"><i class="fa-solid fa-cart-shopping pr-2"></i>ADD</a>
+                            <label class="font-sans text-2xl font-bold text-red-600 text-right" for="discount"><del>$3.50</del></label>
+                        </div>
+                    </div>
+                </div>
+                <!-- product strawberry -->
+                <div class="hover:border-1 hover:border-gray-400 hover:rounded-tl-xl hover:rounded-tr-xl transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">
+                    <div class="bg-gray-100 h-60 rounded-tl-xl rounded-tr-xl flex items-center justify-center">
+                        <img class="h-50 p-6" src="/group-fruit/Strawberry.png" alt="strawberry">
+                    </div>
+                    <div class="bg-white">
+                        <label class="block font-serif text-3xl p-4 hover:text-green-600" for="name-product">Strawberry</label>
+                        <label class="block font-sans text-4xl p-2 font-bold text-right" for="price">$4.50</label>
+                        <div class="flex justify-between p-4">
+                            <a class="bg-green-600 p-2 w-30 rounded-3xl font-serif text-white text-center hover:text-green-600 hover:bg-green-200 hover:border-1 hover:border-green-600 pointer-events-auto" href="/public/add-order.html" name="add-product"><i class="fa-solid fa-cart-shopping pr-2"></i>ADD</a>
+                            <label class="font-sans text-2xl font-bold text-red-600 text-right" for="discount"><del>$8.50</del></label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="cambodian-fruits">
+        <h1 class="text-green-600 text-4xl text-center font-serif font-bold mt-24 mb-24">Cambodian Fruits</h1>
+        <div class="lg:block lg:mr-20 lg:ml-20">
+            <div class="mt-14 mr-20 ml-20 md:hidden">
+                <!-- product banana -->
+                <div class="hover:border-1 hover:border-gray-400 hover:rounded-tl-xl hover:rounded-tr-xl transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">
+                    <div class="bg-gray-100 h-60 rounded-tl-xl rounded-tr-xl flex items-center justify-center">
+                        <img class="h-50 p-6" src="/group-fruit/banana.png" alt="banana">
+                    </div>
+                    <div class="bg-white">
+                        <label class="block font-serif text-3xl p-4 hover:text-green-600" for="name-product">Banana</label>
+                        <div class="flex justify-between p-4">
+                            <a class="bg-green-600 p-2 w-30 rounded-3xl font-serif text-white text-center hover:text-green-600 hover:bg-green-200 hover:border-1 hover:border-green-600 pointer-events-auto" href="/public/add-order.html" name="add-product"><i class="fa-solid fa-cart-shopping pr-2"></i>ADD</a>
+                            <label class="font-sans text-2xl font-bold text-right" for="price">$1.50</label>
+                        </div>
+                    </div>
+                </div>
+                <!-- product jack fruit -->
+                <div class="hover:border-1 hover:border-gray-400 hover:rounded-tl-xl hover:rounded-tr-xl transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">
+                    <div class="bg-gray-100 h-60 rounded-tl-xl rounded-tr-xl flex items-center justify-center">
+                        <img class="h-50 p-6" src="/group-fruit/jackfruit.png" alt="jackfruit">
+                    </div>
+                    <div class="bg-white">
+                        <label class="block font-serif text-3xl p-4 hover:text-green-600" for="name-product">Jack Fruit</label>
+                        <div class="flex justify-between p-4">
+                            <a class="bg-green-600 p-2 w-30 rounded-3xl font-serif text-white text-center hover:text-green-600 hover:bg-green-200 hover:border-1 hover:border-green-600 pointer-events-auto" href="/public/add-order.html" name="add-product"><i class="fa-solid fa-cart-shopping pr-2"></i>ADD</a>
+                            <label class="font-sans text-2xl font-bold text-right" for="price">$2.00</label>
+                        </div>
+                    </div>
+                </div>
+                <!-- product orange -->
+                <div class="hover:border-1 hover:border-gray-400 hover:rounded-tl-xl hover:rounded-tr-xl transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">
+                    <div class="bg-gray-100 h-60 rounded-tl-xl rounded-tr-xl flex items-center justify-center">
+                        <img class="h-50 p-6" src="/group-fruit/druian.png" alt="druian">
+                    </div>
+                    <div class="bg-white">
+                        <label class="block font-serif text-3xl p-4 hover:text-green-600" for="name-product">Durian</label>
+                        <div class="flex justify-between p-4">
+                            <a class="bg-green-600 p-2 w-30 rounded-3xl font-serif text-white text-center hover:text-green-600 hover:bg-green-200 hover:border-1 hover:border-green-600 pointer-events-auto" href="/public/add-order.html" name="add-product"><i class="fa-solid fa-cart-shopping pr-2"></i>ADD</a>
+                            <label class="font-sans text-2xl font-bold text-right" for="price">$4.50</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-[url(/group-fruit/cambodia.png)] bg-cover bg-center hidden md:grid md:grid-cols-2 md:gap-8 md:pt-16 md:pr-12 md:pb-16 md:pl-12 md:m-6 lg:m-0 lg:mt-6 lg:grid-cols-3 lg:gap-30">
+                <div class="bg-white p-8">
+                    <!-- product banana -->
+                    <div class="hover:border-1 hover:border-gray-400 hover:rounded-tl-xl hover:rounded-tr-xl transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">
+                        <div class="bg-gray-100 h-60 rounded-tl-xl rounded-tr-xl flex items-center justify-center">
+                            <img class="h-50 p-6" src="/group-fruit/banana.png" alt="banana">
+                        </div>
+                        <div class="bg-white">
+                            <label class="block font-serif text-3xl p-4 hover:text-green-600" for="name-product">Banana</label>
+                            <div class="flex justify-between p-4">
+                                <a class="bg-green-600 p-2 w-30 rounded-3xl font-serif text-white text-center hover:text-green-600 hover:bg-green-200 hover:border-1 hover:border-green-600 pointer-events-auto" href="/public/add-order.html" name="add-product"><i class="fa-solid fa-cart-shopping pr-2"></i>ADD</a>
+                                <label class="font-sans text-2xl font-bold text-right" for="price">$1.50</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white p-8">
+                    <!-- product jack fruit -->
+                    <div class="hover:border-1 hover:border-gray-400 hover:rounded-tl-xl hover:rounded-tr-xl transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">
+                        <div class="bg-gray-100 h-60 rounded-tl-xl rounded-tr-xl flex items-center justify-center">
+                            <img class="h-50 p-6" src="/group-fruit/jackfruit.png" alt="jackfruit">
+                        </div>
+                        <div class="bg-white">
+                            <label class="block font-serif text-3xl p-4 hover:text-green-600" for="name-product">Jack Fruit</label>
+                            <div class="flex justify-between p-4">
+                                <a class="bg-green-600 p-2 w-30 rounded-3xl font-serif text-white text-center hover:text-green-600 hover:bg-green-200 hover:border-1 hover:border-green-600 pointer-events-auto" href="/public/add-order.html" name="add-product"><i class="fa-solid fa-cart-shopping pr-2"></i>ADD</a>
+                                <label class="font-sans text-2xl font-bold text-right" for="price">$2.00</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white p-8">
+                    <!-- product orange -->
+                    <div class="hover:border-1 hover:border-gray-400 hover:rounded-tl-xl hover:rounded-tr-xl transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">
+                        <div class="bg-gray-100 h-60 rounded-tl-xl rounded-tr-xl flex items-center justify-center">
+                            <img class="h-50 p-6" src="/group-fruit/druian.png" alt="druian">
+                        </div>
+                        <div class="bg-white">
+                            <label class="block font-serif text-3xl p-4 hover:text-green-600" for="name-product">Durian</label>
+                            <div class="flex justify-between p-4">
+                                <a class="bg-green-600 p-2 w-30 rounded-3xl font-serif text-white text-center hover:text-green-600 hover:bg-green-200 hover:border-1 hover:border-green-600 pointer-events-auto" href="/public/add-order.html" name="add-product"><i class="fa-solid fa-cart-shopping pr-2"></i>ADD</a>
+                                <label class="font-sans text-2xl font-bold text-right" for="price">$4.50</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="category-fruit">
+        <h1 class="text-green-600 text-4xl text-center font-serif font-bold mt-24 mb-24">Category Fruits</h1>
+        <div class="lg:grid lg:grid-cols-2 lg:gap-12 lg:mr-20 lg:ml-20">
+            <div class="hidden md:hidden lg:p-12 lg:bg-green-200 lg:h-140 lg:grid lg:grid-cols-2 lg:gap-8 lg:mt-5">
+                <div class="lg:inline-block">
+                    <div class="lg:flex lg:items-center lg:mt-0 lg:mr-0 lg:mb-10 lg:ml-0">
+                        <img class="w-28 object-center" src="/group-fruit/logo-company.png" alt="logo-company">
+                        <h1 class="text-2xl font-bold font-serif text-black text-center">S@MFRUIT</h1>
+                    </div>
+                    <!-- product watermelon -->
+                    <div class=" hover:border-gray-400 hover:rounded-tl-xl hover:rounded-tr-xl transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">
+                        <div class="bg-gray-100 h-60 rounded-tl-xl rounded-tr-xl flex items-center justify-center">
+                            <img class="h-50 p-6" src="/group-fruit/watermelon.png" alt="watermelon">
+                        </div>
+                        <div class="bg-white">
+                            <label class="block font-serif text-3xl p-4 hover:text-green-600" for="name-product">Watermelon</label>
+                            <div class="flex justify-between p-4">
+                                <a class="bg-green-600 p-2 w-30 rounded-3xl font-serif text-white text-center hover:text-green-600 hover:bg-green-200 hover:border-1 hover:border-green-600 pointer-events-auto" href="/public/add-order.html" name="add-product"><i class="fa-solid fa-cart-shopping pr-2"></i>ADD</a>
+                                <label class="font-sans text-2xl font-bold text-right" for="price">$1.80</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- product Dragon fruit -->
+                <div class=" hover:border-gray-400 hover:rounded-tl-xl hover:rounded-tr-xl transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">
+                    <div class="bg-gray-100 h-60 rounded-tl-xl rounded-tr-xl flex items-center justify-center">
+                        <img class="h-50 p-6" src="/group-fruit/dragon fruit.png" alt="dragon-fruit">
+                    </div>
+                    <div class="bg-white">
+                        <label class="block font-serif text-3xl p-4 hover:text-green-600" for="name-product">Dragon Fruit</label>
+                        <div class="flex justify-between p-4">
+                            <a class="bg-green-600 p-2 w-30 rounded-3xl font-serif text-white text-center hover:text-green-600 hover:bg-green-200 hover:border-1 hover:border-green-600 pointer-events-auto" href="/public/add-order.html" name="add-product"><i class="fa-solid fa-cart-shopping pr-2"></i>ADD</a>
+                            <label class="font-sans text-2xl font-bold text-right" for="price">$1.50</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="md:grid md:grid-cols-2 lg:gap-8 md:mr-0 md:ml-0">
+                <div onclick="window.location.href='product.html';" class="mt-14 mr-20 ml-20 md:mr-10 md:ml-10 lg:mr-0 lg:ml-0 lg:mt-10">
+                    <div class="bg-gray-100 pt-6 pr-0 pb-6 pl-6 hover:bg-white hover:border transition delay-150">
+                        <h2 class="font-bold font-serif text-lg">Khmer Fruit</h2>
+                        <img class="block w-30 pt-6 ml-auto" src="/group-fruit/mango.png" alt="mango">
+                    </div>
+                </div>
+                <div onclick="window.location.href='product.html';" class="mt-14 mr-20 ml-20 md:mr-10 md:ml-10 lg:mr-0 lg:ml-0 lg:mt-10">
+                    <div class="bg-gray-100 pt-6 pr-0 pb-6 pl-6 hover:bg-white hover:border transition delay-150">
+                        <h2 class="font-bold font-serif text-lg">Chinese Fruit</h2>
+                        <img class="block w-35 pt-6 ml-auto" src="/group-fruit/peach.png" alt="peach">
+                    </div>
+                </div>
+                <div onclick="window.location.href='product.html';" class="mt-14 mr-20 ml-20 md:mr-10 md:ml-10 lg:mr-0 lg:ml-0 lg:mt-10">
+                    <div class="bg-gray-100 pt-6 pr-0 pb-6 pl-6 hover:bg-white hover:border transition delay-150">
+                        <h2 class="font-bold font-serif text-lg">American Fruit</h2>
+                        <img class="block w-30 pt-6 ml-auto" src="/group-fruit/avocado.png" alt="avocado">
+                    </div>
+                </div>
+                <div onclick="window.location.href='product.html';" class="mt-14 mr-20 ml-20 md:mr-10 md:ml-10 lg:mr-0 lg:ml-0 lg:mt-10">
+                    <div class="bg-gray-100 pt-6 pr-0 pb-6 pl-6 hover:bg-white hover:border transition delay-150">
+                        <h2 class="font-bold font-serif text-lg">European Fruit</h2>
+                        <img class="block w-30 pt-6 ml-auto" src="/group-fruit/cherry.png" alt="cherry">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="more-fruit">
+        <h1 class="text-green-600 text-4xl text-center font-serif font-bold mt-24 mb-24">More Product Fruits</h1>
+        <div class="mt-8 mr-8 ml-8 grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid lg:grid-cols-4 lg:gap-24 lg:mr-20 lg:ml-20">
+            <div class="hover:border-1 hover:border-gray-400 hover:rounded-tl-xl hover:rounded-tr-xl transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">
+                <div class="bg-gray-100 md:h-60 h-40 rounded-tl-xl rounded-tr-xl flex items-center justify-center">
+                    <img class="md:h-50 h-30 md:p-6 p-2" src="/group-fruit/pineapple.png" alt="pineapple">
+                </div>
+                <div class="bg-white">
+                    <label class="block font-serif md:text-3xl text-base md:p-4 p-2 hover:text-green-600" for="name-product">Pineapple</label>
+                    <div class="flex justify-between md:p-2 p-4">
+                        <a class="bg-green-600 p-2 md:w-30 rounded-3xl font-serif text-white text-center hover:text-green-600 hover:bg-green-200 hover:border-1 hover:border-green-600 pointer-events-auto" href="/public/add-order.html" name="add-product"><i class="fa-solid fa-cart-shopping pr-2"></i>ADD</a>
+                        <label class="font-sans md:text-2xl font-bold text-right text-base pt-2 md:pt-0" for="price">$2.10</label>
+                    </div>
+                </div>
+            </div>
+            <div class="hover:border-1 hover:border-gray-400 hover:rounded-tl-xl hover:rounded-tr-xl transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">
+                <div class="bg-gray-100 md:h-60 h-40 rounded-tl-xl rounded-tr-xl flex items-center justify-center">
+                    <img class="md:h-50 h-30 md:p-6 p-2" src="/group-fruit/pomegrante.png" alt="pomegrante">
+                </div>
+                <div class="bg-white">
+                    <label class="block font-serif md:text-3xl text-base md:p-4 p-2 hover:text-green-600" for="name-product">Pomegrante</label>
+                    <div class="flex justify-between md:p-2 p-4">
+                        <a class="bg-green-600 p-2 md:w-30 rounded-3xl font-serif text-white text-center hover:text-green-600 hover:bg-green-200 hover:border-1 hover:border-green-600 pointer-events-auto" href="/public/add-order.html" name="add-product"><i class="fa-solid fa-cart-shopping pr-2"></i>ADD</a>
+                        <label class="font-sans md:text-2xl font-bold text-right text-base pt-2 md:pt-0" for="price">$1.50</label>
+                    </div>
+                </div>
+            </div>
+            <div class="hover:border-1 hover:border-gray-400 hover:rounded-tl-xl hover:rounded-tr-xl transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">
+                <div class="bg-gray-100 md:h-60 h-40 rounded-tl-xl rounded-tr-xl flex items-center justify-center">
+                    <img class="md:h-50 h-30 md:p-6 p-2" src="/group-fruit/lemon.png" alt="lemon">
+                </div>
+                <div class="bg-white">
+                    <label class="block font-serif md:text-3xl text-base md:p-4 p-2 hover:text-green-600" for="name-product">Lemon</label>
+                    <div class="flex justify-between md:p-2 p-4">
+                        <a class="bg-green-600 p-2 md:w-30 rounded-3xl font-serif text-white text-center hover:text-green-600 hover:bg-green-200 hover:border-1 hover:border-green-600 pointer-events-auto" href="/public/add-order.html" name="add-product"><i class="fa-solid fa-cart-shopping pr-2"></i>ADD</a>
+                        <label class="font-sans md:text-2xl font-bold text-right text-base pt-2 md:pt-0" for="price">$1.50</label>
+                    </div>
+                </div>
+            </div>
+            <div class="hover:border-1 hover:border-gray-400 hover:rounded-tl-xl hover:rounded-tr-xl transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">
+                <div class="bg-gray-100 md:h-60 h-40 rounded-tl-xl rounded-tr-xl flex items-center justify-center">
+                    <img class="md:h-50 h-30 md:p-6 p-2" src="/group-fruit/kiwi.png" alt="kiwi">
+                </div>
+                <div class="bg-white">
+                    <label class="block font-serif md:text-3xl text-base md:p-4 p-2 hover:text-green-600" for="name-product">Kiwi</label>
+                    <div class="flex justify-between md:p-2 p-4">
+                        <a class="bg-green-600 p-2 md:w-30 rounded-3xl font-serif text-white text-center hover:text-green-600 hover:bg-green-200 hover:border-1 hover:border-green-600 pointer-events-auto" href="/public/add-order.html" name="add-product"><i class="fa-solid fa-cart-shopping pr-2"></i>ADD</a>
+                        <label class="font-sans md:text-2xl font-bold text-right text-base pt-2 md:pt-0" for="price">$4.99</label>
+                    </div>
+                </div>
+            </div>
+            <div class="hover:border-1 hover:border-gray-400 hover:rounded-tl-xl hover:rounded-tr-xl transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">
+                <div class="bg-gray-100 md:h-60 h-40 rounded-tl-xl rounded-tr-xl flex items-center justify-center">
+                    <img class="md:h-50 h-30 md:p-6 p-2" src="/group-fruit/mangosteen.png" alt="mangosteen">
+                </div>
+                <div class="bg-white">
+                    <label class="block font-serif md:text-3xl text-base md:p-4 p-2 hover:text-green-600" for="name-product">Mangosteen</label>
+                    <div class="flex justify-between md:p-2 p-4">
+                        <a class="bg-green-600 p-2 md:w-30 rounded-3xl font-serif text-white text-center hover:text-green-600 hover:bg-green-200 hover:border-1 hover:border-green-600 pointer-events-auto" href="/public/add-order.html" name="add-product"><i class="fa-solid fa-cart-shopping pr-2"></i>ADD</a>
+                        <label class="font-sans md:text-2xl font-bold text-right text-base pt-2 md:pt-0" for="price">$2.10</label>
+                    </div>
+                </div>
+            </div>
+            <div class="hover:border-1 hover:border-gray-400 hover:rounded-tl-xl hover:rounded-tr-xl transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">
+                <div class="bg-gray-100 md:h-60 h-40 rounded-tl-xl rounded-tr-xl flex items-center justify-center">
+                    <img class="md:h-50 h-30 md:p-6 p-2" src="/group-fruit/papaya.png" alt="papaya">
+                </div>
+                <div class="bg-white">
+                    <label class="block font-serif md:text-3xl text-base md:p-4 p-2 hover:text-green-600" for="name-product">Papaya</label>
+                    <div class="flex justify-between md:p-2 p-4">
+                        <a class="bg-green-600 p-2 md:w-30 rounded-3xl font-serif text-white text-center hover:text-green-600 hover:bg-green-200 hover:border-1 hover:border-green-600 pointer-events-auto" href="/public/add-order.html" name="add-product"><i class="fa-solid fa-cart-shopping pr-2"></i>ADD</a>
+                        <label class="font-sans md:text-2xl font-bold text-right text-base pt-2 md:pt-0" for="price">$3.30</label>
+                    </div>
+                </div>
+            </div>
+            <div class="hover:border-1 hover:border-gray-400 hover:rounded-tl-xl hover:rounded-tr-xl transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">
+                <div class="bg-gray-100 md:h-60 h-40 rounded-tl-xl rounded-tr-xl flex items-center justify-center">
+                    <img class="md:h-50 h-30 md:p-6 p-2" src="/group-fruit/blackberry.png" alt="blackberry">
+                </div>
+                <div class="bg-white">
+                    <label class="block font-serif md:text-3xl text-base md:p-4 p-2 hover:text-green-600" for="name-product">Black Berry</label>
+                    <div class="flex justify-between md:p-2 p-4">
+                        <a class="bg-green-600 p-2 md:w-30 rounded-3xl font-serif text-white text-center hover:text-green-600 hover:bg-green-200 hover:border-1 hover:border-green-600 pointer-events-auto" href="/public/add-order.html" name="add-product"><i class="fa-solid fa-cart-shopping pr-2"></i>ADD</a>
+                        <label class="font-sans md:text-2xl font-bold text-right text-base pt-2 md:pt-0" for="price">$4.99</label>
+                    </div>
+                </div>
+            </div>
+            <div class="hover:border-1 hover:border-gray-400 hover:rounded-tl-xl hover:rounded-tr-xl transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">
+                <div class="bg-gray-100 md:h-60 h-40 rounded-tl-xl rounded-tr-xl flex items-center justify-center">
+                    <img class="md:h-50 h-30 md:p-6 p-2" src="/group-fruit/blueberry.png" alt="blueberry">
+                </div>
+                <div class="bg-white">
+                    <label class="block font-serif md:text-3xl text-base md:p-4 p-2 hover:text-green-600" for="name-product">Blue Berry</label>
+                    <div class="flex justify-between md:p-2 p-4">
+                        <a class="bg-green-600 p-2 md:w-30 rounded-3xl font-serif text-white text-center hover:text-green-600 hover:bg-green-200 hover:border-1 hover:border-green-600 pointer-events-auto" href="/public/add-order.html" name="add-product"><i class="fa-solid fa-cart-shopping pr-2"></i>ADD</a>
+                        <label class="font-sans md:text-2xl font-bold text-right text-base pt-2 md:pt-0" for="price">$4.99</label>
+                    </div>
+                </div>
+            </div>
+            <div class="hover:border-1 hover:border-gray-400 hover:rounded-tl-xl hover:rounded-tr-xl transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">
+                <div class="bg-gray-100 md:h-60 h-40 rounded-tl-xl rounded-tr-xl flex items-center justify-center">
+                    <img class="md:h-50 h-30 md:p-6 p-2" src="/group-fruit/boysenberry.png" alt="boysenberry">
+                </div>
+                <div class="bg-white">
+                    <label class="block font-serif md:text-3xl text-base md:p-4 p-2 hover:text-green-600" for="name-product">Boysen Berry</label>
+                    <div class="flex justify-between md:p-2 p-4">
+                        <a class="bg-green-600 p-2 md:w-30 rounded-3xl font-serif text-white text-center hover:text-green-600 hover:bg-green-200 hover:border-1 hover:border-green-600 pointer-events-auto" href="/public/add-order.html" name="add-product"><i class="fa-solid fa-cart-shopping pr-2"></i>ADD</a>
+                        <label class="font-sans md:text-2xl font-bold text-right text-base pt-2 md:pt-0" for="price">$4.99</label>
+                    </div>
+                </div>
+            </div>
+            <div class="hover:border-1 hover:border-gray-400 hover:rounded-tl-xl hover:rounded-tr-xl transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">
+                <div class="bg-gray-100 md:h-60 h-40 rounded-tl-xl rounded-tr-xl flex items-center justify-center">
+                    <img class="md:h-50 h-30 md:p-6 p-2" src="/group-fruit/cannrymelon.png" alt="carry-melon">
+                </div>
+                <div class="bg-white">
+                    <label class="block font-serif md:text-3xl text-base md:p-4 p-2 hover:text-green-600" for="name-product">Carry Melon</label>
+                    <div class="flex justify-between md:p-2 p-4">
+                        <a class="bg-green-600 p-2 md:w-30 rounded-3xl font-serif text-white text-center hover:text-green-600 hover:bg-green-200 hover:border-1 hover:border-green-600 pointer-events-auto" href="/public/add-order.html" name="add-product"><i class="fa-solid fa-cart-shopping pr-2"></i>ADD</a>
+                        <label class="font-sans md:text-2xl font-bold text-right text-base pt-2 md:pt-0" for="price">$6.99</label>
+                    </div>
+                </div>
+            </div>
+            <div class="hover:border-1 hover:border-gray-400 hover:rounded-tl-xl hover:rounded-tr-xl transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">
+                <div class="bg-gray-100 md:h-60 h-40 rounded-tl-xl rounded-tr-xl flex items-center justify-center">
+                    <img class="md:h-50 h-30 md:p-6 p-2" src="/group-fruit/cranberry.png" alt="cranberry">
+                </div>
+                <div class="bg-white">
+                    <label class="block font-serif md:text-3xl text-base md:p-4 p-2 hover:text-green-600" for="name-product">Carn Berry</label>
+                    <div class="flex justify-between md:p-2 p-4">
+                        <a class="bg-green-600 p-2 md:w-30 rounded-3xl font-serif text-white text-center hover:text-green-600 hover:bg-green-200 hover:border-1 hover:border-green-600 pointer-events-auto" href="/public/add-order.html" name="add-product"><i class="fa-solid fa-cart-shopping pr-2"></i>ADD</a>
+                        <label class="font-sans md:text-2xl font-bold text-right text-base pt-2 md:pt-0" for="price">$4.99</label>
+                    </div>
+                </div>
+            </div>
+            <div class="hover:border-1 hover:border-gray-400 hover:rounded-tl-xl hover:rounded-tr-xl transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">
+                <div class="bg-gray-100 md:h-60 h-40 rounded-tl-xl rounded-tr-xl flex items-center justify-center">
+                    <img class="md:h-50 h-30 md:p-6 p-2" src="/group-fruit/figs.png" alt="figs">
+                </div>
+                <div class="bg-white">
+                    <label class="block font-serif md:text-3xl text-base md:p-4 p-2 hover:text-green-600" for="name-product">Figs</label>
+                    <div class="flex justify-between md:p-2 p-4">
+                        <a class="bg-green-600 p-2 md:w-30 rounded-3xl font-serif text-white text-center hover:text-green-600 hover:bg-green-200 hover:border-1 hover:border-green-600 pointer-events-auto" href="/public/add-order.html" name="add-product"><i class="fa-solid fa-cart-shopping pr-2"></i>ADD</a>
+                        <label class="font-sans md:text-2xl font-bold text-right text-base pt-2 md:pt-0" for="price">$4.99</label>
+                    </div>
+                </div>
+            </div>
+            <div class="hover:border-1 hover:border-gray-400 hover:rounded-tl-xl hover:rounded-tr-xl transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">
+                <div class="bg-gray-100 md:h-60 h-40 rounded-tl-xl rounded-tr-xl flex items-center justify-center">
+                    <img class="md:h-50 h-30 md:p-6 p-2" src="/group-fruit/grapes.png" alt="grapes">
+                </div>
+                <div class="bg-white">
+                    <label class="block font-serif md:text-3xl text-base md:p-4 p-2 hover:text-green-600" for="name-product">Grapes</label>
+                    <div class="flex justify-between md:p-2 p-4">
+                        <a class="bg-green-600 p-2 md:w-30 rounded-3xl font-serif text-white text-center hover:text-green-600 hover:bg-green-200 hover:border-1 hover:border-green-600 pointer-events-auto" href="/public/add-order.html" name="add-product"><i class="fa-solid fa-cart-shopping pr-2"></i>ADD</a>
+                        <label class="font-sans md:text-2xl font-bold text-right text-base pt-2 md:pt-0" for="price">$3.99</label>
+                    </div>
+                </div>
+            </div>
+            <div class="hover:border-1 hover:border-gray-400 hover:rounded-tl-xl hover:rounded-tr-xl transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">
+                <div class="bg-gray-100 md:h-60 h-40 rounded-tl-xl rounded-tr-xl flex items-center justify-center">
+                    <img class="md:h-50 h-30 md:p-6 p-2" src="/group-fruit/guava.png" alt="guava">
+                </div>
+                <div class="bg-white">
+                    <label class="block font-serif md:text-3xl text-base md:p-4 p-2 hover:text-green-600" for="name-product">Guava</label>
+                    <div class="flex justify-between md:p-2 p-4">
+                        <a class="bg-green-600 p-2 md:w-30 rounded-3xl font-serif text-white text-center hover:text-green-600 hover:bg-green-200 hover:border-1 hover:border-green-600 pointer-events-auto" href="/public/add-order.html" name="add-product"><i class="fa-solid fa-cart-shopping pr-2"></i>ADD</a>
+                        <label class="font-sans md:text-2xl font-bold text-right text-base pt-2 md:pt-0" for="price">$2.50</label>
+                    </div>
+                </div>
+            </div>
+            <div class="hover:border-1 hover:border-gray-400 hover:rounded-tl-xl hover:rounded-tr-xl transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">
+                <div class="bg-gray-100 md:h-60 h-40 rounded-tl-xl rounded-tr-xl flex items-center justify-center">
+                    <img class="md:h-50 h-30 md:p-6 p-2" src="/group-fruit/longan.png" alt="logan">
+                </div>
+                <div class="bg-white">
+                    <label class="block font-serif md:text-3xl text-base md:p-4 p-2 hover:text-green-600" for="name-product">Logan</label>
+                    <div class="flex justify-between md:p-2 p-4">
+                        <a class="bg-green-600 p-2 md:w-30 rounded-3xl font-serif text-white text-center hover:text-green-600 hover:bg-green-200 hover:border-1 hover:border-green-600 pointer-events-auto" href="/public/add-order.html" name="add-product"><i class="fa-solid fa-cart-shopping pr-2"></i>ADD</a>
+                        <label class="font-sans md:text-2xl font-bold text-right text-base pt-2 md:pt-0" for="price">$1.85</label>
+                    </div>
+                </div>
+            </div>
+            <div class="hover:border-1 hover:border-gray-400 hover:rounded-tl-xl hover:rounded-tr-xl transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">
+                <div class="bg-gray-100 md:h-60 h-40 rounded-tl-xl rounded-tr-xl flex items-center justify-center">
+                    <img class="md:h-50 h-30 md:p-6 p-2" src="/group-fruit/Lychee.png" alt="lychee">
+                </div>
+                <div class="bg-white">
+                    <label class="block font-serif md:text-3xl text-base md:p-4 p-2 hover:text-green-600" for="name-product">Lychee</label>
+                    <div class="flex justify-between md:p-2 p-4">
+                        <a class="bg-green-600 p-2 md:w-30 rounded-3xl font-serif text-white text-center hover:text-green-600 hover:bg-green-200 hover:border-1 hover:border-green-600 pointer-events-auto" href="/public/add-order.html" name="add-product"><i class="fa-solid fa-cart-shopping pr-2"></i>ADD</a>
+                        <label class="font-sans md:text-2xl font-bold text-right text-base pt-2 md:pt-0" for="price">$2.99</label>
+                    </div>
+                </div>
+            </div>
+            <div class="hover:border-1 hover:border-gray-400 hover:rounded-tl-xl hover:rounded-tr-xl transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">
+                <div class="bg-gray-100 md:h-60 h-40 rounded-tl-xl rounded-tr-xl flex items-center justify-center">
+                    <img class="md:h-50 h-30 md:p-6 p-2" src="/group-fruit/Blood Orange.png" alt="blood-orange">
+                </div>
+                <div class="bg-white">
+                    <label class="block font-serif md:text-3xl text-base md:p-4 p-2 hover:text-green-600" for="name-product">Blood Orange</label>
+                    <div class="flex justify-between md:p-2 p-4">
+                        <a class="bg-green-600 p-2 md:w-30 rounded-3xl font-serif text-white text-center hover:text-green-600 hover:bg-green-200 hover:border-1 hover:border-green-600 pointer-events-auto" href="/public/add-order.html" name="add-product"><i class="fa-solid fa-cart-shopping pr-2"></i>ADD</a>
+                        <label class="font-sans md:text-2xl font-bold text-right text-base pt-2 md:pt-0" for="price">$2.99</label>
+                    </div>
+                </div>
+            </div>
+            <div class="hover:border-1 hover:border-gray-400 hover:rounded-tl-xl hover:rounded-tr-xl transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">
+                <div class="bg-gray-100 md:h-60 h-40 rounded-tl-xl rounded-tr-xl flex items-center justify-center">
+                    <img class="md:h-50 h-30 md:p-6 p-2" src="/group-fruit/Passion Fruit.png" alt="passion">
+                </div>
+                <div class="bg-white">
+                    <label class="block font-serif md:text-3xl text-base md:p-4 p-2 hover:text-green-600" for="name-product">Passion Fruit</label>
+                    <div class="flex justify-between md:p-2 p-4">
+                        <a class="bg-green-600 p-2 md:w-30 rounded-3xl font-serif text-white text-center hover:text-green-600 hover:bg-green-200 hover:border-1 hover:border-green-600 pointer-events-auto" href="/public/add-order.html" name="add-product"><i class="fa-solid fa-cart-shopping pr-2"></i>ADD</a>
+                        <label class="font-sans md:text-2xl font-bold text-right text-base pt-2 md:pt-0" for="price">$1.85</label>
+                    </div>
+                </div>
+            </div>
+            <div class="hover:border-1 hover:border-gray-400 hover:rounded-tl-xl hover:rounded-tr-xl transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">
+                <div class="bg-gray-100 md:h-60 h-40 rounded-tl-xl rounded-tr-xl flex items-center justify-center">
+                    <img class="md:h-50 h-30 md:p-6 p-2" src="/group-fruit/Pear.png" alt="pear">
+                </div>
+                <div class="bg-white">
+                    <label class="block font-serif md:text-3xl text-base md:p-4 p-2 hover:text-green-600" for="name-product">Pear</label>
+                    <div class="flex justify-between md:p-2 p-4">
+                        <a class="bg-green-600 p-2 md:w-30 rounded-3xl font-serif text-white text-center hover:text-green-600 hover:bg-green-200 hover:border-1 hover:border-green-600 pointer-events-auto" href="/public/add-order.html" name="add-product"><i class="fa-solid fa-cart-shopping pr-2"></i>ADD</a>
+                        <label class="font-sans md:text-2xl font-bold text-right text-base pt-2 md:pt-0" for="price">$2.60</label>
+                    </div>
+                </div>
+            </div>
+            <div class="hover:border-1 hover:border-gray-400 hover:rounded-tl-xl hover:rounded-tr-xl transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">
+                <div class="bg-gray-100 md:h-60 h-40 rounded-tl-xl rounded-tr-xl flex items-center justify-center">
+                    <img class="md:h-50 h-30 md:p-6 p-2" src="/group-fruit/plum.png" alt="plum">
+                </div>
+                <div class="bg-white">
+                    <label class="block font-serif md:text-3xl text-base md:p-4 p-2 hover:text-green-600" for="name-product">Plum</label>
+                    <div class="flex justify-between md:p-2 p-4">
+                        <a class="bg-green-600 p-2 md:w-30 rounded-3xl font-serif text-white text-center hover:text-green-600 hover:bg-green-200 hover:border-1 hover:border-green-600 pointer-events-auto" href="/public/add-order.html" name="add-product"><i class="fa-solid fa-cart-shopping pr-2"></i>ADD</a>
+                        <label class="font-sans md:text-2xl font-bold text-right text-base pt-2 md:pt-0" for="price">$4.99</label>
+                    </div>
+                </div>
+            </div>
+            <div class="hover:border-1 hover:border-gray-400 hover:rounded-tl-xl hover:rounded-tr-xl transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">
+                <div class="bg-gray-100 md:h-60 h-40 rounded-tl-xl rounded-tr-xl flex items-center justify-center">
+                    <img class="md:h-50 h-30 md:p-6 p-2" src="/group-fruit/Rambutan.png" alt="Rambutan">
+                </div>
+                <div class="bg-white">
+                    <label class="block font-serif md:text-3xl text-base md:p-4 p-2 hover:text-green-600" for="name-product">Rambutan</label>
+                    <div class="flex justify-between md:p-2 p-4">
+                        <a class="bg-green-600 p-2 md:w-30 rounded-3xl font-serif text-white text-center hover:text-green-600 hover:bg-green-200 hover:border-1 hover:border-green-600 pointer-events-auto" href="/public/add-order.html" name="add-product"><i class="fa-solid fa-cart-shopping pr-2"></i>ADD</a>
+                        <label class="font-sans md:text-2xl font-bold text-right text-base pt-2 md:pt-0" for="price">$1.85</label>
+                    </div>
+                </div>
+            </div>
+            <div class="hover:border-1 hover:border-gray-400 hover:rounded-tl-xl hover:rounded-tr-xl transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">
+                <div class="bg-gray-100 md:h-60 h-40 rounded-tl-xl rounded-tr-xl flex items-center justify-center">
+                    <img class="md:h-50 h-30 md:p-6 p-2" src="/group-fruit/Satsuma.png" alt="Satsuma">
+                </div>
+                <div class="bg-white">
+                    <label class="block font-serif md:text-3xl text-base md:p-4 p-2 hover:text-green-600" for="name-product">Satsuma</label>
+                    <div class="flex justify-between md:p-2 p-4">
+                        <a class="bg-green-600 p-2 md:w-30 rounded-3xl font-serif text-white text-center hover:text-green-600 hover:bg-green-200 hover:border-1 hover:border-green-600 pointer-events-auto" href="/public/add-order.html" name="add-product"><i class="fa-solid fa-cart-shopping pr-2"></i>ADD</a>
+                        <label class="font-sans md:text-2xl font-bold text-right text-base pt-2 md:pt-0" for="price">$1.85</label>
+                    </div>
+                </div>
+            </div>
+            <div class="hover:border-1 hover:border-gray-400 hover:rounded-tl-xl hover:rounded-tr-xl transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">
+                <div class="bg-gray-100 md:h-60 h-40 rounded-tl-xl rounded-tr-xl flex items-center justify-center">
+                    <img class="md:h-50 h-30 md:p-6 p-2" src="/group-fruit/Soursop.png" alt="Soursop">
+                </div>
+                <div class="bg-white">
+                    <label class="block font-serif md:text-3xl text-base md:p-4 p-2 hover:text-green-600" for="name-product">Soursop</label>
+                    <div class="flex justify-between md:p-2 p-4">
+                        <a class="bg-green-600 p-2 md:w-30 rounded-3xl font-serif text-white text-center hover:text-green-600 hover:bg-green-200 hover:border-1 hover:border-green-600 pointer-events-auto" href="/public/add-order.html" name="add-product"><i class="fa-solid fa-cart-shopping pr-2"></i>ADD</a>
+                        <label class="font-sans md:text-2xl font-bold text-right text-base pt-2 md:pt-0" for="price">$2.99</label>
+                    </div>
+                </div>
+            </div>
+            <div class="hover:border-1 hover:border-gray-400 hover:rounded-tl-xl hover:rounded-tr-xl transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">
+                <div class="bg-gray-100 md:h-60 h-40 rounded-tl-xl rounded-tr-xl flex items-center justify-center">
+                    <img class="md:h-50 h-30 md:p-6 p-2" src="/group-fruit/Star Fruit.png" alt="star">
+                </div>
+                <div class="bg-white">
+                    <label class="block font-serif md:text-3xl text-base md:p-4 p-2 hover:text-green-600" for="name-product">Star Fruit</label>
+                    <div class="flex justify-between md:p-2 p-4">
+                        <a class="bg-green-600 p-2 md:w-30 rounded-3xl font-serif text-white text-center hover:text-green-600 hover:bg-green-200 hover:border-1 hover:border-green-600 pointer-events-auto" href="/public/add-order.html" name="add-product"><i class="fa-solid fa-cart-shopping pr-2"></i>ADD</a>
+                        <label class="font-sans md:text-2xl font-bold text-right text-base pt-2 md:pt-0" for="price">$2.60</label>
+                    </div>
+                </div>
+            </div>
+            <div class="hover:border-1 hover:border-gray-400 hover:rounded-tl-xl hover:rounded-tr-xl transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">
+                <div class="bg-gray-100 md:h-60 h-40 rounded-tl-xl rounded-tr-xl flex items-center justify-center">
+                    <img class="md:h-50 h-30 md:p-6 p-2" src="/group-fruit/Damson.png" alt="Damson">
+                </div>
+                <div class="bg-white">
+                    <label class="block font-serif md:text-3xl text-base md:p-4 p-2 hover:text-green-600" for="name-product">Damson</label>
+                    <div class="flex justify-between md:p-2 p-4">
+                        <a class="bg-green-600 p-2 md:w-30 rounded-3xl font-serif text-white text-center hover:text-green-600 hover:bg-green-200 hover:border-1 hover:border-green-600 pointer-events-auto" href="/public/add-order.html" name="add-product"><i class="fa-solid fa-cart-shopping pr-2"></i>ADD</a>
+                        <label class="font-sans md:text-2xl font-bold text-right text-base pt-2 md:pt-0" for="price">$3.00</label>
+                    </div>
+                </div>
+            </div>
+            <div class="hover:border-1 hover:border-gray-400 hover:rounded-tl-xl hover:rounded-tr-xl transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">
+                <div class="bg-gray-100 md:h-60 h-40 rounded-tl-xl rounded-tr-xl flex items-center justify-center">
+                    <img class="md:h-50 h-30 md:p-6 p-2" src="/group-fruit/Coconut.png" alt="Coconut">
+                </div>
+                <div class="bg-white">
+                    <label class="block font-serif md:text-3xl text-base md:p-4 p-2 hover:text-green-600" for="name-product">Coconut</label>
+                    <div class="flex justify-between md:p-2 p-4">
+                        <a class="bg-green-600 p-2 md:w-30 rounded-3xl font-serif text-white text-center hover:text-green-600 hover:bg-green-200 hover:border-1 hover:border-green-600 pointer-events-auto" href="/public/add-order.html" name="add-product"><i class="fa-solid fa-cart-shopping pr-2"></i>ADD</a>
+                        <label class="font-sans md:text-2xl font-bold text-right text-base pt-2 md:pt-0" for="price">$1.00</label>
+                    </div>
+                </div>
+            </div>
+            <div class="hover:border-1 hover:border-gray-400 hover:rounded-tl-xl hover:rounded-tr-xl transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">
+                <div class="bg-gray-100 md:h-60 h-40 rounded-tl-xl rounded-tr-xl flex items-center justify-center">
+                    <img class="md:h-50 h-30 md:p-6 p-2" src="/group-fruit/Sapodilla.png" alt="Sapodilla">
+                </div>
+                <div class="bg-white">
+                    <label class="block font-serif md:text-3xl text-base md:p-4 p-2 hover:text-green-600" for="name-product">Sapodilla</label>
+                    <div class="flex justify-between md:p-2 p-4">
+                        <a class="bg-green-600 p-2 md:w-30 rounded-3xl font-serif text-white text-center hover:text-green-600 hover:bg-green-200 hover:border-1 hover:border-green-600 pointer-events-auto" href="/public/add-order.html" name="add-product"><i class="fa-solid fa-cart-shopping pr-2"></i>ADD</a>
+                        <label class="font-sans md:text-2xl font-bold text-right text-base pt-2 md:pt-0" for="price">$1.85</label>
+                    </div>
+                </div>
+            </div>
+            <div class="hover:border-1 hover:border-gray-400 hover:rounded-tl-xl hover:rounded-tr-xl transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">
+                <div class="bg-gray-100 md:h-60 h-40 rounded-tl-xl rounded-tr-xl flex items-center justify-center">
+                    <img class="md:h-50 h-30 md:p-6 p-2" src="/group-fruit/Persimmon.png" alt="Persimmon">
+                </div>
+                <div class="bg-white">
+                    <label class="block font-serif md:text-3xl text-base md:p-4 p-2 hover:text-green-600" for="name-product">Persimmon</label>
+                    <div class="flex justify-between md:p-2 p-4">
+                        <a class="bg-green-600 p-2 md:w-30 rounded-3xl font-serif text-white text-center hover:text-green-600 hover:bg-green-200 hover:border-1 hover:border-green-600 pointer-events-auto" href="/public/add-order.html" name="add-product"><i class="fa-solid fa-cart-shopping pr-2"></i>ADD</a>
+                        <label class="font-sans md:text-2xl font-bold text-right text-base pt-2 md:pt-0" for="price">$4.00</label>
+                    </div>
+                </div>
+            </div>
+            <div class="hover:border-1 hover:border-gray-400 hover:rounded-tl-xl hover:rounded-tr-xl transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">
+                <div class="bg-gray-100 md:h-60 h-40 rounded-tl-xl rounded-tr-xl flex items-center justify-center">
+                    <img class="md:h-50 h-30 md:p-6 p-2" src="/group-fruit/Tamarind.png" alt="Tamarind">
+                </div>
+                <div class="bg-white">
+                    <label class="block font-serif md:text-3xl text-base md:p-4 p-2 hover:text-green-600" for="name-product">Tamarind</label>
+                    <div class="flex justify-between md:p-2 p-4">
+                        <a class="bg-green-600 p-2 md:w-30 rounded-3xl font-serif text-white text-center hover:text-green-600 hover:bg-green-200 hover:border-1 hover:border-green-600 pointer-events-auto" href="/public/add-order.html" name="add-product"><i class="fa-solid fa-cart-shopping pr-2"></i>ADD</a>
+                        <label class="font-sans md:text-2xl font-bold text-right text-base pt-2 md:pt-0" for="price">$1.00</label>
+                    </div>
+                </div>
+            </div>
+            <div class="hover:border-1 hover:border-gray-400 hover:rounded-tl-xl hover:rounded-tr-xl transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">
+                <div class="bg-gray-100 md:h-60 h-40 rounded-tl-xl rounded-tr-xl flex items-center justify-center">
+                    <img class="md:h-50 h-30 md:p-6 p-2" src="/group-fruit/java-plum.png" alt="java-plum">
+                </div>
+                <div class="bg-white">
+                    <label class="block font-serif md:text-3xl text-base md:p-4 p-2 hover:text-green-600" for="name-product">Java Plum</label>
+                    <div class="flex justify-between md:p-2 p-4">
+                        <a class="bg-green-600 p-2 md:w-30 rounded-3xl font-serif text-white text-center hover:text-green-600 hover:bg-green-200 hover:border-1 hover:border-green-600 pointer-events-auto" href="/public/add-order.html" name="add-product"><i class="fa-solid fa-cart-shopping pr-2"></i>ADD</a>
+                        <label class="font-sans md:text-2xl font-bold text-right text-base pt-2 md:pt-0" for="price">$1.00</label>
+                    </div>
+                </div>
+            </div>
+            <div class="hover:border-1 hover:border-gray-400 hover:rounded-tl-xl hover:rounded-tr-xl transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">
+                <div class="bg-gray-100 md:h-60 h-40 rounded-tl-xl rounded-tr-xl flex items-center justify-center">
+                    <img class="md:h-50 h-30 md:p-6 p-2" src="/group-fruit/corn.png" alt="corn">
+                </div>
+                <div class="bg-white">
+                    <label class="block font-serif md:text-3xl text-base md:p-4 p-2 hover:text-green-600" for="name-product">Corn</label>
+                    <div class="flex justify-between md:p-2 p-4">
+                        <a class="bg-green-600 p-2 md:w-30 rounded-3xl font-serif text-white text-center hover:text-green-600 hover:bg-green-200 hover:border-1 hover:border-green-600 pointer-events-auto" href="/public/add-order.html" name="add-product"><i class="fa-solid fa-cart-shopping pr-2"></i>ADD</a>
+                        <label class="font-sans md:text-2xl font-bold text-right text-base pt-2 md:pt-0" for="price">$1.00</label>
+                    </div>
+                </div>
+            </div>
+            <div class="hover:border-1 hover:border-gray-400 hover:rounded-tl-xl hover:rounded-tr-xl transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">
+                <div class="bg-gray-100 md:h-60 h-40 rounded-tl-xl rounded-tr-xl flex items-center justify-center">
+                    <img class="md:h-50 h-30 md:p-6 p-2" src="/group-fruit/apricots.png" alt="apricots">
+                </div>
+                <div class="bg-white">
+                    <label class="block font-serif md:text-3xl text-base md:p-4 p-2 hover:text-green-600" for="name-product">Apricots</label>
+                    <div class="flex justify-between md:p-2 p-4">
+                        <a class="bg-green-600 p-2 md:w-30 rounded-3xl font-serif text-white text-center hover:text-green-600 hover:bg-green-200 hover:border-1 hover:border-green-600 pointer-events-auto" href="/public/add-order.html" name="add-product"><i class="fa-solid fa-cart-shopping pr-2"></i>ADD</a>
+                        <label class="font-sans md:text-2xl font-bold text-right text-base pt-2 md:pt-0" for="price">$4.00</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="mt-30" id="footer"></div>
+    <script src="/src/script.js"></script>
+    <script>header();</script>
+    <script>title();</script>
+    <script>footer();</script>
+</body>
+</html>
