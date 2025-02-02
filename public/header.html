@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" type="image/x-icon" href="/group-fruit/logo-company.png" />
+  </head>
+    <title>Header</title>
+</head>
+<body>
+    <header class="bg-green-600 h-20 fixed top-0 left-0 w-full overflow-hidden z-50">
+        <div class="flex ml-20 mr-20 md:ml-14 md:mr-14 lg:ml-14 lg:mr-14 justify-between 2xl:flex">
+            <div class="flex pt-2 pr-2 pb-2 items-center">
+                <img class="w-28" src="/group-fruit/logo-company.png" alt="logo-company">
+                <h1 class="text-2xl md:text-xl font-bold font-serif text-white">S@MFRUIT</h1>
+            </div>
+            <div class="items-center hidden md:flex">
+                <a class="p-2 w-25 rounded-3xl font-serif text-white text-center hover:text-black hover:bg-gray-100 pointer-events-auto" href="/public/home-page.html" name="home">Home</a>
+                <a class="p-2 w-25 rounded-3xl font-serif text-white text-center hover:text-black hover:bg-gray-100 pointer-events-auto" href="/public/product.html" name="product">Product</a>
+                <a class="p-2 w-25 rounded-3xl font-serif text-white text-center hover:text-black hover:bg-gray-100 pointer-events-auto" href="/public/delivery.html" name="delivery">Delivery</a>
+                <a class="p-2 w-25 rounded-3xl font-serif text-white text-center hover:text-black hover:bg-gray-100 pointer-events-auto" href="/public/about.html" name="about">About</a>
+            </div>
+            <div class="relative hidden md:hidden lg:flex p-5">
+                <div class="absolute inset-y-0 start-0 flex items-center ps-5 pointer-events-none">
+                    <i class="fa-solid fa-magnifying-glass p-4 text-gray-400" aria-hidden="true"></i>
+                </div>
+                <input class="block bg-gray-100 pr-6 pl-12 text-gray-400 rounded-3xl focus:outline-gray-400" type="search" name="search" placeholder="Search">
+            </div>
+            <div class="items-center hidden md:hidden lg:flex">
+                <a class="p-2 w-25 rounded-3xl font-serif text-white text-center hover:text-black hover:bg-gray-100 pointer-events-auto" href="/public/new-page.html" name="account"><i class="fa-solid fa-user pr-2"></i>Account</a>
+                <a class="p-2 w-25 rounded-3xl font-serif text-white text-center hover:text-black hover:bg-gray-100 pointer-events-auto" href="/public/new-page.html" name="cart"><i class="fa-solid fa-cart-shopping pr-2"></i>Cart</a>
+            </div>
+        </div>
+    </header>
+</body>
+</html>

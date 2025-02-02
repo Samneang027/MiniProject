@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Card Product</title>
+</head>
+<body>
+    <section class="mt-8 mr-8 ml-8 grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid lg:grid-cols-4 lg:gap-8 lg:mr-20 lg:ml-20">
+            <div class="hover:border-1 hover:border-gray-400 hover:rounded-tl-xl hover:rounded-tr-xl transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">
+                <div class="bg-gray-100 md:h-60 h-40 rounded-tl-xl rounded-tr-xl flex items-center justify-center">
+                    <img class="md:h-50 h-30 md:p-6 p-2" src="/group-fruit/black-grape.png" alt="black-grape">
+                </div>
+                <div class="bg-white">
+                    <label class="block font-serif md:text-3xl text-base md:p-4 p-2 hover:text-green-600" for="name-product">Black Grape</label>
+                    <label class="block font-sans md:text-4xl text-base pr-4 font-bold text-right" for="price">$4.50</label>
+                    <div class="flex justify-between p-4">
+                        <a class="bg-green-600 p-2 md:w-30 rounded-3xl font-serif text-white text-center hover:text-green-600 hover:bg-green-200 hover:border-1 hover:border-green-600 pointer-events-auto" href="#" name="add-product"><i class="fa-solid fa-cart-shopping pr-2"></i>ADD</a>
+                        <label class="font-sans md:text-2xl text-base font-bold text-red-600 text-right" for="discount"><del>$6.33</del></label>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <!-- <section class="hidden mt-14 mr-20 ml-20 md:grid justify-between md:grid-cols-2 md:gap-12 lg:grid-cols-4">
+        <div class="hover:border-1 hover:border-gray-400 hover:rounded-tl-xl hover:rounded-tr-xl transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">
+            <div class="bg-gray-100 h-60 rounded-tl-xl rounded-tr-xl flex items-center justify-center">
+                <img class="h-50 p-6" src="/group-fruit/black-grape.png" alt="black-grape">
+            </div>
+            <div class="bg-white">
+                <label class="block font-serif text-3xl p-4 hover:text-green-600" for="name-product">Black Grape</label>
+                <label class="block font-sans text-4xl p-2 font-bold text-right" for="price">$4.50</label>
+                <div class="flex justify-between p-4">
+                    <a class="bg-green-600 p-2 w-30 rounded-3xl font-serif text-white text-center hover:text-green-600 hover:bg-green-200 hover:border-1 hover:border-green-600 pointer-events-auto" href="#" name="add-product"><i class="fa-solid fa-cart-shopping pr-2"></i>ADD</a>
+                    <label class="font-sans text-2xl font-bold text-red-600 text-right" for="discount"><del>$6.33</del></label>
+                </div>
+            </div>
+        </div>
+        <div class="hover:border-1 hover:border-gray-400 hover:rounded-tl-xl hover:rounded-tr-xl transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">
+            <div class="bg-gray-100 h-60 rounded-tl-xl rounded-tr-xl flex items-center justify-center">
+                <img class="h-50 p-6" src="/group-fruit/black-grape.png" alt="black-grape">
+            </div>
+            <div class="bg-white">
+                <label class="block font-serif text-3xl p-4 hover:text-green-600" for="name-product">Black Grape</label>
+                <label class="block font-sans text-4xl p-2 font-bold text-right" for="price">$4.50</label>
+                <div class="flex justify-between p-4">
+                    <a class="bg-green-600 p-2 w-30 rounded-3xl font-serif text-white text-center hover:text-green-600 hover:bg-green-200 hover:border-1 hover:border-green-600 pointer-events-auto" href="#" name="add-product"><i class="fa-solid fa-cart-shopping pr-2"></i>ADD</a>
+                    <label class="font-sans text-2xl font-bold text-red-600 text-right" for="discount"><del>$6.33</del></label>
+                </div>
+            </div>
+        </div>
+        <div class="hover:border-1 hover:border-gray-400 hover:rounded-tl-xl hover:rounded-tr-xl transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">
+            <div class="bg-gray-100 h-60 rounded-tl-xl rounded-tr-xl flex items-center justify-center">
+                <img class="h-50 p-6" src="/group-fruit/black-grape.png" alt="black-grape">
+            </div>
+            <div class="bg-white">
+                <label class="block font-serif text-3xl p-4 hover:text-green-600" for="name-product">Black Grape</label>
+                <label class="block font-sans text-4xl p-2 font-bold text-right" for="price">$4.50</label>
+                <div class="flex justify-between p-4">
+                    <a class="bg-green-600 p-2 w-30 rounded-3xl font-serif text-white text-center hover:text-green-600 hover:bg-green-200 hover:border-1 hover:border-green-600 pointer-events-auto" href="#" name="add-product"><i class="fa-solid fa-cart-shopping pr-2"></i>ADD</a>
+                    <label class="font-sans text-2xl font-bold text-red-600 text-right" for="discount"><del>$6.33</del></label>
+                </div>
+            </div>
+        </div>
+        <div class="hover:border-1 hover:border-gray-400 hover:rounded-tl-xl hover:rounded-tr-xl transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">
+            <div class="bg-gray-100 h-60 rounded-tl-xl rounded-tr-xl flex items-center justify-center">
+                <img class="h-50 p-6" src="/group-fruit/black-grape.png" alt="black-grape">
+            </div>
+            <div class="bg-white">
+                <label class="block font-serif text-3xl p-4 hover:text-green-600" for="name-product">Black Grape</label>
+                <label class="block font-sans text-4xl p-2 font-bold text-right" for="price">$4.50</label>
+                <div class="flex justify-between p-4">
+                    <a class="bg-green-600 p-2 w-30 rounded-3xl font-serif text-white text-center hover:text-green-600 hover:bg-green-200 hover:border-1 hover:border-green-600 pointer-events-auto" href="#" name="add-product"><i class="fa-solid fa-cart-shopping pr-2"></i>ADD</a>
+                    <label class="font-sans text-2xl font-bold text-red-600 text-right" for="discount"><del>$6.33</del></label>
+                </div>
+            </div>
+        </div>
+    </section> -->
+</body>
+</html>
